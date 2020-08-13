@@ -1,0 +1,352 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #dedbd4;
+}
+/* header */
+.header {
+    height :12vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-content {
+    height: 100%;
+    width:80%;
+    display: flex;
+}
+.logo {
+    background-color: #d0312d;
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+    border-radius: 0px 1px 0px 10px;
+    height: 200%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.logo-png {
+    background-image: url("../icons/desktop-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    height: 80%;
+    width: 80%;
+}
+.social-link {
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 100px;
+    height: 100%;
+    width: 55%;
+}
+.contact-link {
+    display: flex;
+    width: 29%;
+    justify-content: space-evenly;
+        
+}
+.icon-clippath {
+    background-color: #d0312d;
+    width: 15%;
+    height: 80%;
+    clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clippath-icon {
+    /* background-color: white; */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 20px;
+}
+/* main */
+.main {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.main-clippath {
+    width: 95%;
+    height: 85vh;
+
+    background-color:#061324;
+    clip-path: polygon(12% 0, 90% 1%, 100% 10%, 100% 100%, 90% 100%, 12% 100%, 0 100%, 0 10%);
+}
+.main-body {
+    width: 88%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+/* banner */
+.banner {
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    /* background-color: wheat; */
+}
+.banner-img{
+    /* background-image: url("../banner/1.png"); */
+    height: 100%;
+    position: relative;
+}
+/* navbar */
+.navbar {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+}
+.nav {
+    height: 100%;
+    width: 80%;
+    
+}
+.contact-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20% ;
+}
+.contact-button {
+    width: 80%;
+    height: 60%;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 2px;   
+}
+.contact-button:hover {
+    background-color:  #d0312d  ;
+}
+.nav-links {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.nav-links ul {
+    display: flex;
+    text-decoration-style: none;
+    list-style: none;
+}
+.nav-links ul li a {
+    color: white;
+    font-size: 17px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.nav-links ul li a:hover {
+    color: lawngreen;
+}
+li{
+    text-decoration: none;
+}
+/* carousel */
+.carousel-inner {
+    height: 85vh;
+    /* display: flex;
+    align-items: center; */
+}
+/* .carousel-item {
+    position: relative !important;
+} */
+.black-overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height:100% ;
+    background: rgba(0, 0,0, 0.6);
+}
+.carousel-caption {
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    text-align: right;
+}
+.carousel-caption p{
+    font-size: 40px;
+}
+/* manage-statistics */
+.manage-statistics {
+    margin-top: 30px;
+    width: 90%;
+    height: 400px;
+    background-color:#061324;;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.manage-statistics-content {
+    height: 80%;
+    width: 50%;
+    color: white;
+}
+.manage-statistics-img {
+    height: 80%;
+    width: 27%;
+    background-image: url("../certificate\ _\ 17\ 6\ 2020_V1.jpg");
+    background-position: center;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-color: #d0312d;
+}
+.line {
+    width: 15%;
+    height: 1%;
+    background-color: lightseagreen;
+}
+/* dowells-expertise */
+.dowells-expertise {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dowells-expertise-content {
+    height: 80%;
+    width: 60%;
+    color: #061324;
+}
+.dowells-expertise-img {
+    height: 70%;
+    width: 40%;
+    background-image: url("../expertise.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+    margin-top: 20px;
+}
+/* dowells-history */
+.dowells-history {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    background-image: url("../dowells-history.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+
+}
+.knowmore {
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: #d0312d;
+    border: 1px solid black;
+}
+.knowmore:hover {
+    color: white;
+    background-color: #ac2522;
+    border: 1px solid black;
+}
+.knowmore:focus {
+    outline: none;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+/* dowells-services */
+.dowells-services {
+    width: 90%;
+    height: 800px;
+    color: #061324;
+    /* background-color: royalblue; */
+}
+.dowells-services-cards{
+    width: 100%;
+    height: 700px;
+    /* background-color: saddlebrown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dowells-services-cards-sec {
+    height: 320px;
+    width: 100%;
+    margin-top: 10px;
+    /* background-color: skyblue; */
+    display: flex;
+}
+.dowells-services-card {
+    /* background-color: seagreen; */
+    width: 270px;
+    height: 100%;
+    margin-left: 20px;
+    color: #01142d;
+    /* background-color: slateblue; */
+    border-right: 1px solid #c9c8c8;
+    font-weight: 600px;
+}
+.dowells-services-card p {
+    color: #928f8f;
+}
+.dowells-services-card a {
+    color: #01142d;
+    font-weight: 800;
+}
+.dowells-services-card i {
+    color: #63a3bc;
+    font-size: 40px;
+    margin-left: 10px;
+}
+/* joint-venture */
+.joint-venture{
+    width: 100%;
+    background-color: #061324;
+    display: flex;
+    justify-content: space-evenly;
+}
+.joint-venture-content {
+    padding: 200px 100px;
+    color: white;
+    width: 65%;
+}
+/* .vertical-txt {
+    color: white;
+    width: 10%;
+    background-color: rgb(0, 119, 255);
+ 
+}
+.vertical-txt h2 {
+    transform: rotate(90deg);
+    margin-top: 100px;
+
+} */
+.joint-venture-img {
+    width: 50%;
+    background-image: url("../joint.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    padding: 100px 20px;
+    
+}
